@@ -1,0 +1,110 @@
+.jumbotron {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  color: rgba(255,255,255,.75);
+  background-color: #B70101;
+  border-radius: 0;
+  padding-bottom: 5px;
+}
+.jumbotron h1 {
+  margin-bottom: -15px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  color: #fff;
+  text-align: center;
+}
+.jumbotron .small {
+  font-size: .9em;
+}
+.jumbotron .btn-lg {
+  font-size: 48px;
+  margin-bottom: -45px;
+}
+.jumbotron iframe {
+  width: 90px!important;
+  height: 20px!important;
+  border: none;
+  overflow: hidden;
+  margin: 2px;
+}
+.jumbotron p a,
+.jumbotron-links a {
+  font-weight: 500;
+  color: #fff;
+  transition: all .1s ease-in-out;
+}
+.jumbotron p a:hover,
+.jumbotron-links a:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,.55);
+}
+.jumbotron-links {
+  margin-top: 15px;
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+.jumbotron-links li {
+  display: inline;
+}
+.jumbotron-links li + li {
+  margin-left: 20px;
+}
+h1,
+h2 {
+  font-weight: 300;
+  color: #555;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+h4 {
+  font-weight: 300;
+  color: #555;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+pre {
+  font-size: 0.8em;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+footer {
+  text-align: center;
+  opacity: .8;
+  padding: 40px 0;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+.examples {
+  text-align: center;
+}
+.examples .btn {
+  margin-bottom: 4px;
+}
+.links {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+.links li {
+  display: inline;
+  padding: 0 10px;
+}
+.index-body h1{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-bottom: 9px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #B70101;
+}
+.index-body h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.index-body h3, small{
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
