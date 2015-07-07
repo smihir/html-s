@@ -1,3 +1,6 @@
+body {
+  font-size: 16px;
+}
 .jumbotron {
   font-size: 16px;
   text-align: center;
@@ -9,6 +12,7 @@
 }
 .jumbotron h1 {
   margin-bottom: -15px;
+  margin-top: -15px;
   font-weight: 300;
   letter-spacing: -1px;
   color: #fff;
@@ -50,6 +54,13 @@
 .jumbotron-links li + li {
   margin-left: 20px;
 }
+.jumbotron .btn-outline {
+  border-color: #FFFFFF
+}
+.jumbotron a.btn:hover {
+  background-color: #FFFFFF;
+  color: #B70101;
+}
 h1,
 h2 {
   font-weight: 300;
@@ -76,6 +87,9 @@ footer {
   padding: 40px 0;
   margin-top: 40px;
   border-top: 1px solid #ccc;
+}
+footer a{
+  color: #767676;
 }
 .examples {
   text-align: center;
