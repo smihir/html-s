@@ -32,10 +32,10 @@
     </ul>
     <p class="small">Incoming CS Grad at UW Madison</p>
     <p>
-      <a class="btn btn-outline" href="https://github.com/smihir/resume/blob/master/mihir-resume.pdf" onclick="_gaq.push(['_trackEvent', 'exit', 'main', 'GitHub']);">
+      <a class="btn btn-outline" href="https://github.com/smihir/resume/raw/master/mihir-resume.pdf" onclick="_gaq.push(['_trackEvent', 'exit', 'main', 'GitHub']);">
         <span class="fa fa-github"></span>
-          View Resume on GitHub
-        </a>
+          Download Resume
+      </a>
     </p>
     <ul class="jumbotron-links">
       <li><a class="btn-social-icon btn-lg btn-linkedin" href="https://www.linkedin.com/in/mihirshete"><i class="fa fa-linkedin"></i></a></li>
@@ -44,7 +44,7 @@
       <li><a class="btn-social-icon btn-lg btn-twitter" href="https://twitter.com/mihirshete"><i class="fa fa-twitter"></i></a></li>
     </ul>
     <iframe src="https://ghbtns.com/github-btn.html?user=smihir&repo=html-s&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-    <iframe src="https://ghbtns.com/github-btn.html?user=smihir&repo=html-sp&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=smihir&repo=html-s&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
   </div>
   <div class="container index-body">
     <div class="row">
@@ -96,7 +96,14 @@
         <h3><small>Co-op Intern</small></h3>
         <p>
           Worked in Fall 2009 to develop reference designs for Blood Pressure
-          Monitor using PSoC3 devices.
+          Monitor using PSoC3 devices. The challenge here was to come up with
+          a filter design and an algorithm which can accurately determine the
+          Blood Pressure using the limited resources on a single PSoC3 chip.
+          Our solution consisted of cascading an Instrumentation Amplifier and a
+          Band Pass filter made using the analog blocks in PSoC. The signal was
+          further smoothened before feeding to the BP calculating algorithm by
+          using single pole IIR filters in the digital domain to reduce the 1/f
+          noise which was found to result in inaccuracies.
         </p>
         <h2 id="mahi">Mahindra & Mahindra</h2>
         <h3><small>Summer Intern</small></h3>
@@ -107,8 +114,18 @@
           <h1 id="education">Education</h1>
           <h2 id="uwmad">University of Wisconsin-Madison</h2>
           <h3> <small>Incoming Student, M.S in Computer Science</small></h3>
+          <p>
+            At UW Madison I would like to pursue my interests in Operating System,
+            Wireless Networks and Internet of Things. UW with its world renowned
+            faculty and enthusiastic students will provide a great platform for
+            me to pursue my interests.
+          </p>
           <h2 id="bpgc">Birla Institute of Technology and Science - Pilani, Goa</h2>
           <h3> <small>B.E (Hons.) Electronics and Instrumentation</small></h3>
+          <p>
+            I developed interest in Embedded Systems while studying at BITS and
+            dabbled with PSoC kits for fun.
+          </p>
       </div>
       <!--Start the Navigation Pane-->
       <div class="col-md-3" role="complementary">
@@ -147,9 +164,7 @@
 </div>
 <footer>
       <ul class="links">
-        <li><a href="http://github.com/smihir" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'GitHub']);"><i class="fa fa-github"></i> GitHub</a></li>
-        <li><a href="http://twitter.com/mihirshete" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'Twitter']);"><i class="fa fa-twitter"></i> Twitter</a></li>
-        <li><a href="http://google.com/+MihirShete" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'Google+']);"><i class="fa fa-google-plus"></i> Google+</a></li>
+        <li><a href="https://github.com/smihir/html-s/issues" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'GitHub']);"><i class="fa fa-github"></i> Report Issue</a></li>
         <li><a href="http://opensource.org/licenses/MIT" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'MIT']);"><i class="fa fa-building"></i> MIT License</a></li>
       </ul>
 </footer>
